@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>Homepage</title>
+
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<br></br>
+
+<h1 align="center">Web Development First Assignment</h1>
+
+<body>
+
+  <div id=body>
+
+    <h2 align="center" id="message" class="expandUp"></h2>
+        <script type="text/javascript">
+                var d = new Date();
+                var n = d.getHours();
+
+                if (n >= 22 || n <= 4){
+                        message = "Goodnight";
+                } else if ( n >= 5 && n <= 11 ) {
+                        message = "Good Morning";
+                } else if ( n >= 12 && n <= 17 ) {
+                        message = "Good Afternoon";
+                } else if ( n >= 18 && n <= 21 ) {
+                        message = "Good Evening";
+                }
+
+                document.getElementById("message").innerHTML = message;
+        </script>
+
+<p><center>Welcome to my website that I made for CGS1821 Website Development. It is the first website I have made for this class. Thank you for visiting this site. I had a lot of fun making it, and I hope you enjoyed visiting it.</center></p>
+
+<br></br>
+<br></br>
+
+<span class=links>
+<center>Feel free to check out the <a href="about.html" target="_blank">about page</a>.</center>
+</span>
+
+</body>
+
+</html>
