@@ -37,11 +37,11 @@ color: #407C9B  ;
 }
 
 #body {
-max-width: 434px;
-max-height: 300px;
+max-width: 480px;
+max-height: 480px;
 position: absolute;
-top: 50%;
+top: 0%;
 left: 50%;
-margin-top: -150px;
+margin-top: 0px;
 margin-left: -217px;
 }
