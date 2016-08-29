@@ -45,3 +45,7 @@ left: 50%;
 margin-top: 0px;
 margin-left: -217px;
 }
+
+audio {
+  display: none;
+}
